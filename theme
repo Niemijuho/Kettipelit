@@ -515,7 +515,11 @@ function createDiv(height, width) {
   	  		{block:HasPages}
   		<ul class="pages">
 				{block:Pages}
-					<li><a href="{URL}">{Label}</a></li>
+					<li><a href="{URL}">{HISTORIA}</a></li>
+					<li><a href="{URL}">{SÄÄNNÖT}</a></li>
+					<li><a href="{URL}">{LISENSIAATIT}</a></li>
+					<li><a href="{URL}">{PALKINTOHUONE}</a></li>
+					
 				{/block:Pages}
   		</ul>
 		{/block:HasPages}
