@@ -1,4 +1,13 @@
 <!DOCTYPE html>
+<script type="text/javascript" src="path/to/instafeed.min.js"></script>
+<script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'tagged',
+        tagName: 'awesome',
+        clientId: 'YOUR_CLIENT_ID'
+    });
+    feed.run();
+</script>
 <html lang="en">
 <head>
 <title>KIKETTI</title>
@@ -69,18 +78,8 @@
   <a href="#">KIKETTI SM2020</a> 
 </div>
 <div class="runko">
-<img src="http://i.picasion.com/gl/89/cmuQ.gif">
-<h1>LISENSIAATTI LASKURI: 32</h1>
-<br /><br />
-  <p>Juho</p>
-  <img src="https://66.media.tumblr.com/bb965c1ca4425e6dcef3893fa345e060/tumblr_inline_pnaoc9dCTa1saay1z_500.jpg" alt="Juho">
-  <p>Santtu</p>
-  <img src="https://66.media.tumblr.com/54e58ab47a0e0725318e8a62e29a76b5/tumblr_inline_pnao8k8smF1saay1z_500.jpg" alt="Santtu" width="500">
-  <p>Anni</p>
-  <img src="https://66.media.tumblr.com/41a4f9333b0bc0c024bd41ebe57a203d/tumblr_inline_pnaodknxGD1saay1z_500.jpg" alt="Anni" width="500">
-  <p>Ilona</p>
-  <img src="https://66.media.tumblr.com/8b52f463a6ad08a2cfc84d70f36a7e95/tumblr_inline_px5j7hsQ4Y1saay1z_500.png" alt="Ilona width="500"">
 </div>
+<div id="instafeed"></div>
 <div class="footer">
   <h2>Yhteydenotot sähköpostiin juho.niemi@tuni.fi</h2>
 </div>
