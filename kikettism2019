@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.header {
+  padding: 80px; 
+  text-align: center; 
+  background: #FFFF; 
+  color: black; 
+  
+}
+
+
+.header h1 {
+  font-size: 40px;
+}
+
+.navbar {
+  overflow: hidden; 
+  background-color: #FFFF; 
+  color: black;
+}
+
+.navbar a {
+  float: left; 
+  display: block; 
+  color: black; 
+  text-align: center; 
+  padding: 14px 20px; 
+  text-decoration: none; 
+  margin-left:30px;
+}
+
+
+.navbar a.right {
+  float: right; 
+}
+
+.navbar a:hover {
+  color: black; 
+  text-decoration: underline;
+}
+.footer {
+  padding: 20px; 
+  text-align: center;  
+}
+.runko {
+	margin-top:100px; 
+	text-align:center;
+    img-width:200px;
+    font-size:16px;
+}
+
+</head>
+</style>
+<body>
+<div class="header">
+<img src="https://i.ibb.co/k25brhq/valiaikainenkikettilogo.png" alt="logo" width="800">
+</div>
+<div class="navbar">
+  <a href="#">Sääntö- ja sanakirja</a>
+  <a href="#">Lisensiaatit</a>
+  <a href="#">Palkintokaappi</a>
+  <a href="#">KIKETTI SM2019</a>
+  <a href="#">KIKETTI SM2020</a> 
+</div>
+<div class="runko">
+<img src="https://66.media.tumblr.com/53bcbce0d786f2086962cac2a901bb08/tumblr_inline_pxd54bSjYe1saay1z_500.jpg" alt="Logo" width="300">
+<h1>KIKETTI SUOMEN MESTARI 2019: ILONA</h1>
+<img src="https://i.ibb.co/jHrwSGW/ilonavoitti.png" alt="ilonavoittokuva">
+<p>II Sara</p>
+<p>III Alise</p>
+<p>IV Asta</p>
+<p>V Otso</p>
+<p>VI Santeri</p>
+</br>
+
+<a href="#">Pöytäkirjat ladattavissa tästä</a>
+</div>
+<div class="footer">
+  <h2>Yhteydenotot sähköpostiin juho.niemi@tuni.fi</h2>
+</div>
+</body>
+
