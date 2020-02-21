@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<title>KIKETTI</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -61,8 +62,8 @@
   <p>Virallinen kiketti nettisivu</p>
 </div>
 <div class="navbar">
-  <a href="#">Sääntö- ja sanakirja</a>
-  <a href="#">Lisensiaatit</a>
+  <a href="saannot.html">Sääntö- ja sanakirja</a>
+  <a href="lisensiaatit.html">Lisensiaatit</a>
   <a href="#">Palkintokaappi</a>
   <a href="#">KIKETTI SM2019</a>
   <a href="#">KIKETTI SM2020</a> 
@@ -84,5 +85,4 @@
   <h2>Yhteydenotot sähköpostiin juho.niemi@tuni.fi</h2>
 </div>
 </body>
-
 
